@@ -3204,11 +3204,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-danger {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
   color: #F85C70;
   border-color: #F85C70;
 }
 
 .btn-outline-danger:hover {
+  border-radius: 5px;
   color: #fff;
   background-color: #F85C70;
   border-color: #F85C70;
@@ -5054,7 +5058,7 @@ input[type="button"].btn-block {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-width: 0;
+  min-width: 0  ;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
